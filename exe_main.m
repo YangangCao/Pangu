@@ -2,10 +2,7 @@
 clc;
 clear;
 
-% Error for file:/Users/baboo/tmp/weibo/000eOW3pjx072XNWN5Uj010401000KxY0k01.mp3
-% Error for file:/Users/baboo/tmp/weibo/000Di6wnlx07lLzpRxws010402008P5G0k010.mp3
-
-test_music = '/Users/baboo/tmp/weibo/000gCDZFlx07kqwOg82I01040200tqd90k010.mp3';
+test_music = '/Users/caoyangang/tmp/weibo/000gCDZFlx07kqwOg82I01040200tqd90k010.mp3';
 [audio, fs] = audioread(test_music);
 hp_control = 1;
 
@@ -20,9 +17,9 @@ disp("Finished!")
 clc;
 clear;
 
-folderpath = '/media/baboo/ac139c16-d683-4132-b2f9-0a1f83695fbe/song_json/divide_by_provider/Cezame & Gum/0003';
+folderpath = '/media/caoyangang/ac139c16-d683-4132-b2f9-0a1f83695fbe/song_json/divide_by_provider/Cezame & Gum/0003';
 
-diarypath = '/home/baboo/Desktop/matlab_log.txt';
+diarypath = '/Users/caoyangang/Desktop/matlab_log.txt';
 
 targetpath = strcat(folderpath, '_csv');
 
