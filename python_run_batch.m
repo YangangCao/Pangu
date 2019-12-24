@@ -4,7 +4,7 @@ function python_run_batch(folder)
 
 folderpath = folder;
 
-diarypath = '/home/baboo/Desktop/matlab_log.txt';
+diarypath = '/Users/caoyangang/Desktop/matlab_log.txt';
 
 targetpath = strcat(folderpath, '_csv');
 
