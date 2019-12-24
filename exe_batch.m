@@ -3,9 +3,9 @@
 clc;
 clear;
 
-basepath = '/media/baboo/ac139c16-d683-4132-b2f9-0a1f83695fbe/apm/apm-06/cezame-carte-blanche-ccb';
+basepath = '/User/caoyangang/Desktop/';
 
-diarypath = '/home/baboo/Desktop/matlab_log.txt';
+diarypath = '/User/caoyangang/Desktop/matlab_log.txt';
 
 diary(diarypath);
 
